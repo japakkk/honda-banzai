@@ -1,1 +1,655 @@
-.w-100,header{width:100%}h2{font-size:34px}@media (max-width:475px){h2{font-size:24px}}h3{font-size:18px;font-weight:400}.container{max-width:870px;margin:0 100px}@media (max-width:475px){h3{font-size:14px}.container{max-width:calc(335px-40px);margin:0 20px;text-align:center}}.container-header{max-width:1120px;margin:auto}.d-none{display:none}body{font-family:'Lexend Deca',sans-serif;height:100vh;background:#fff}header{background-color:#EEE}header .container__header{display:flex;align-items:center}@media (max-width:475px){.container-header{max-width:calc(335px-40px);margin:0 20px;text-align:center}header .container__header{justify-content:center}header .container__header span{display:none}}header .container__header img{margin:0 10px 0 0;max-width:21px;max-height:18px}header .container__header span{color:#707070;width:max-content}header .container__top-bar{max-width:1120px;margin:auto;font-size:10px;padding:5px;display:flex;align-items:center;justify-content:space-between}header .container__top-bar .top-bar{width:calc(100% - 300px)}@media (max-width:475px){header .container__top-bar{max-width:calc(335px-40px);margin:0 20px;text-align:center}header .container__top-bar .top-bar{width:33%}}header .container__top-bar .container__encontre__concessionaria{width:300px}@media (max-width:475px){header .container__top-bar .container__encontre__concessionaria{width:66%}}header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria{display:flex;align-items:center;width:calc(100% / 2)}header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria:nth-child(1){margin:0 25px 0 0;width:180px}header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria:nth-child(2){width:calc(100% - 180px)}@media (max-width:475px){header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria{justify-content:center}}header .header__central{background:#fff}header .header__central .header__container{max-width:1120px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:20px}@media (max-width:475px){header .header__central .header__container{max-width:calc(335px-40px);margin:0 20px;text-align:center;flex-direction:column}header .header__central .header__container .central-atendimento,header .header__central .header__container .logos{padding:10px 0}}header .header__central .header__container .central-atendimento{display:flex;justify-content:center;flex-direction:column}header .header__central .header__container .central-atendimento p{font-size:16px;letter-spacing:-.7px;color:#727B7A}header .header__central .header__container .central-atendimento span{font-size:26px;text-align:center;color:#DF0209}main{width:100%;height:100%}main .primmary__section{height:400px;background:url(../images/civic-10.png)}main .primmary__section .primmary__section__mobile{display:none;flex-direction:column;padding:20px}@media (max-width:475px){main .primmary__section{height:unset;background:unset}main .primmary__section .primmary__section__mobile{display:flex}}main .primmary__section .container__primmary__section{max-width:870px;margin:0 100px;display:flex;align-items:flex-end;height:100%}@media (max-width:475px){main .primmary__section .container__primmary__section{max-width:calc(335px-40px);margin:0 20px;text-align:center;display:none}}main .primmary__section .container__primmary__section img{background:tramsparent;max-width:130px;max-height:130px;margin:0 0 20px}main .form{position:fixed;background:#EEE;width:270px;top:30%;right:5%;z-index:2;margin:0 0 16px;padding:20px;box-shadow:0 0 5px rgba(0,0,0,.16);border-radius:5px}@media (max-width:475px){main .form{position:unset;display:block;width:calc(100% - 40px);margin:20px}}main .form .form__tittle{display:flex;align-items:center;margin:0 0 10px}main .form .form__tittle .titulo__texto{text-indent:20px}main .form .form__tittle .titulo__texto .solicitar{color:#000;font-size:16px}main .form .form__tittle .titulo__texto .contato{color:#DF0209;font-size:22px}main .form .form__inputs,main .form .form__inputs .form__type__inputs{align-items:center;display:flex;flex-direction:column;width:100%}main .form .form__inputs .form__type__inputs label{display:none}main .form .form__inputs .form__type__inputs input{width:100%;background:8px/16px no-repeat #EEE;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:36px;text-indent:30px;margin:5px 0}main .form .form__inputs .form__type__inputs input#nome{background-image:url(../icons/call-answer.svg)}main .form .form__inputs .form__type__inputs input#e-mail{background-image:url(../icons/black-envelope.svg)}main .form .form__inputs .form__type__inputs input#telefone{background-image:url(../icons/call-answer.svg)}main .form .form__inputs .form__type__inputs input#escolha-o-horario{background-image:url(../icons/clock-circular-outline.svg)}main .form .form__inputs .form__type__inputs input#escolha-a-unidade{background-image:url(../icons/icon-localizacao.svg)}main .form .form__inputs .form__type__inputs input input+input,main .form .form__inputs .form__type__inputs input input+label{margin-top:5px}main .form .form__inputs .botao{width:100%;padding:16px 0;margin:5px 0;background-color:#1CB72A;border:none;border-radius:4px;color:#fff}main .secundary__section{max-width:870px;margin:0 100px}main .secundary__section .text-section{padding:35px 0 50px;color:#000}main .secundary__section .text-section h3{padding:0 20px 0 0}main .secundary__section .grid-imagens{display:grid;grid-template-columns:repeat(3,170px) 1fr;grid-template-rows:repeat(3,1fr);gap:10px;grid-template-areas:"image001 image004 image004 image004" "image002 image004 image004 image004" "image003 image004 image004 image004";align-items:center}main .secundary__section .grid-imagens .image001{grid-area:image001}main .secundary__section .grid-imagens .image002{grid-area:image002}main .secundary__section .grid-imagens .image003{grid-area:image003}main .secundary__section .grid-imagens .image004{grid-area:image004}main .secundary__section .grid-imagens .image001,main .secundary__section .grid-imagens .image002,main .secundary__section .grid-imagens .image003{height:100%;border:1px solid #D5D5D5}main .secundary__section .grid-imagens img{width:100%;height:100%}@media (max-width:475px){main .secundary__section{max-width:calc(335px-40px);margin:0 20px;text-align:center}main .secundary__section .grid-imagens{display:none}}main .secundary__section .grid-imagens-mobile{display:none}main .secundary__section .grid-imagens-mobile img{max-width:320px;max-height:100px}main .section__algo__novo{height:400px;background:url(../images/algo-novo.png)}@media (max-width:475px){main .secundary__section .grid-imagens-mobile{display:block}main .section__algo__novo{background-position:30%}}main .section__algo__novo .text-section{max-width:870px;margin:0 100px;padding:0 0 30px;display:flex;flex-direction:column;justify-content:flex-end;height:100%;color:#fff}@media (max-width:475px){main .section__algo__novo .text-section{max-width:calc(335px-40px);margin:0 20px;text-align:center}main .section__algo__novo .text-section h3{max-width:300px;margin:0 auto}}main .container__slider{max-width:870px;margin:0 100px;padding:35px 0 50px}@media (max-width:475px){main .container__slider{max-width:calc(335px-40px);margin:0 20px;text-align:center}}main .container__slider button.slick-next,main .container__slider button.slick-prev{position:absolute;top:25%;z-index:10;width:40px;height:40px;font-size:0;border-radius:20px}main .container__slider button.slick-next{right:5%;background:url(../images/seta-direita.png) center center/13px no-repeat #D5D5D5}main .container__slider button.slick-prev{left:1%;background:url(../images/seta-esquerda.png) center center/13px no-repeat #D5D5D5}main .container__slider .slider.d-none-mobile{display:none}main .container__slider .slider.d-none-desktop{display:block}@media (max-width:575px){main .container__slider .slider.d-none-mobile{display:block}main .container__slider .slider.d-none-desktop{display:none}}main .container__slider .slider .slick-slide{width:100%;margin-right:45px}main .container__slider .slider .slick-slide img{border:1px solid #D5D5D5;margin:auto auto 15px}main .container__slider .slider .slick-slide h3{color:#000}main .container__slider .slider .slick-slide p{color:#00090;font-size:14px;font-weight:300;margin:10px 0 0;padding:0 10px 0 0}main .section__ter__honda{max-width:870px;margin:0 100px;padding:60px 0}@media (max-width:475px){main .section__ter__honda{max-width:calc(335px-40px);margin:0 20px;text-align:center}}main .section__ter__honda .grid-carros{width:100%;display:grid;grid-template-columns:repeat(auto-fit,270px);gap:0 30px;align-items:center;justify-content:center}main .section__ter__honda .grid-carros .container__grid-carros{margin:30px 0;padding:20px;background-color:#fff;border:1px solid #D5D5D5;justify-content:center}main .section__ter__honda .grid-carros .container__grid-carros img{display:block;margin:auto auto 10px;max-width:211px;max-height:179px}main .section__ter__honda .grid-carros .container__grid-carros p{font-size:14px;font-weight:300;text-align:center;margin:0 0 20px}main .section__ter__honda .grid-carros .container__grid-carros a button{width:100%;font-size:14px;font-weight:300;padding:10px 0;background:0 0;border:1px solid #D5D5D5;border-radius:4px}main .section__ter__honda .text-section{display:flex;flex-direction:column;color:#000}main footer{background-color:#eee}main footer .container__footer{padding:20px 0;max-width:570px;margin:0 auto}@media (max-width:475px){main footer .container__footer{max-width:calc(335px-40px);margin:0 20px}}main footer .container__footer .container_footer__box{display:flex}@media (max-width:515px){main footer .container__footer .container_footer__box{flex-direction:column;text-align:center}}main footer .container__footer .container_footer__box .footer__box{display:flex;align-items:center;width:calc((100% / 2) - 30px);padding:20px;margin:0 15px;border-radius:5px;border:1px solid #DF0209;background-color:#fff}@media (max-width:515px){main footer .container__footer .container_footer__box .footer__box{width:calc(100% - 30px);margin:15px}}main footer .container__footer .container_footer__box .footer__box .icon__footer__box{max-width:30px;margin:0 15px 0 0}main footer .container__footer .container_footer__box .footer__box .icon__footer__box img{max-width:30px;max-height:40px}main footer .container__footer .container_footer__box .footer__box .content_footer__box{width:calc((100% - 30px) - 15px)}main footer .container__footer .container_footer__box .footer__box .content_footer__box p{font-size:14px;color:#000}main footer .container__footer .container_footer__box .footer__box .content_footer__box h4{font-size:16px;color:#DF0209}main footer .container__footer .container_footer__box .footer__box .content_footer__contato{width:100%;text-align:center}main footer .container__footer .container_footer__box .footer__box .content_footer__contato p{font-size:14px;color:#727B7A}main footer .container__footer .container_footer__box .footer__box .content_footer__contato h4{font-size:26px;color:#DF0209}@media (max-width:475px){main footer .container__footer .container_footer__box .footer__box .content_footer__contato h4{font-size:22px}}main footer .container__footer .container_footer_redes-sociais{padding:15px;text-align:center}main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais{width:100%}main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais h3{font-size:24px}main footer .container__footer .container_footer_redes-sociais .footer__icones_redes-sociais{margin:10px 0 0}main footer .container__footer .container_footer_redes-sociais .footer__icones_redes-sociais img{margin:0 20px 0 0}main footer .container__footer .container_footer_copiryght{padding:20px;display:flex}main footer .container__footer .container_footer_copiryght .logo-honda{width:110px;margin:0 130px 0 0}@media (max-width:475px){main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais h3{font-size:18px}main footer .container__footer .container_footer_copiryght{flex-direction:column}main footer .container__footer .container_footer_copiryght .logo-honda{display:flex;width:100%;margin:0 0 50px}}main footer .container__footer .container_footer_copiryght .logo-honda img{max-width:110px;max-height:29px;margin:auto}main footer .container__footer .container_footer_copiryght .logo-ibama{width:calc((100% - 110px) - 130px);display:flex;align-items:center}@media (max-width:475px){main footer .container__footer .container_footer_copiryght .logo-ibama{width:100%}}main footer .container__footer .container_footer_copiryght .logo-ibama p{font-size:11px;color:#707070;padding:0 10px 0 0}
+h2 {
+  font-size: 34px;
+}
+@media (max-width: 475px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 475px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+.w-100 {
+  width: 100%;
+}
+.container {
+  max-width: 870px;
+  margin: 0 100px;
+}
+@media (max-width: 475px) {
+  .container {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+.container-header {
+  max-width: 1120px;
+  margin: auto;
+}
+@media (max-width: 475px) {
+  .container-header {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+.d-none {
+  display: none;
+}
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  height: 100vh;
+  background: #ffffff;
+}
+header {
+  width: 100%;
+  background-color: #EEEEEE;
+}
+header .container__header {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 475px) {
+  header .container__header {
+    justify-content: center;
+  }
+}
+header .container__header img {
+  margin: 0 10px 0 0;
+  max-width: 21px;
+  max-height: 18px;
+}
+header .container__header span {
+  color: #707070;
+  width: max-content;
+}
+@media (max-width: 475px) {
+  header .container__header span {
+    display: none;
+  }
+}
+header .container__top-bar {
+  max-width: 1120px;
+  margin: auto;
+  font-size: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 475px) {
+  header .container__top-bar {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+header .container__top-bar .top-bar {
+  width: calc(100% - 300px);
+}
+@media (max-width: 475px) {
+  header .container__top-bar .top-bar {
+    width: 33%;
+  }
+}
+header .container__top-bar .container__encontre__concessionaria {
+  width: 300px;
+}
+@media (max-width: 475px) {
+  header .container__top-bar .container__encontre__concessionaria {
+    width: 66%;
+  }
+}
+header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria {
+  display: flex;
+  align-items: center;
+  width: calc(100% / 2);
+}
+header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria:nth-child(1) {
+  margin: 0 25px 0 0;
+  width: 180px;
+}
+header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria:nth-child(2) {
+  width: calc(100% - 180px);
+}
+@media (max-width: 475px) {
+  header .container__top-bar .container__encontre__concessionaria .encontre-concessionaria {
+    justify-content: center;
+  }
+}
+header .header__central {
+  background: #ffffff;
+}
+header .header__central .header__container {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+@media (max-width: 475px) {
+  header .header__central .header__container {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 475px) {
+  header .header__central .header__container {
+    flex-direction: column;
+  }
+  header .header__central .header__container .logos,
+  header .header__central .header__container .central-atendimento {
+    padding: 10px 0;
+  }
+}
+header .header__central .header__container .central-atendimento {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header .header__central .header__container .central-atendimento p {
+  font-size: 16px;
+  letter-spacing: -0.7px;
+  color: #727B7A;
+}
+header .header__central .header__container .central-atendimento span {
+  font-size: 26px;
+  text-align: center;
+  color: #DF0209;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+main .primmary__section {
+  height: 400px;
+  background: url("../images/civic-10.png") repeat;
+}
+@media (max-width: 475px) {
+  main .primmary__section {
+    height: unset;
+    background: unset;
+  }
+}
+main .primmary__section .primmary__section__mobile {
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+}
+@media (max-width: 475px) {
+  main .primmary__section .primmary__section__mobile {
+    display: flex;
+  }
+}
+main .primmary__section .container__primmary__section {
+  max-width: 870px;
+  margin: 0 100px;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+@media (max-width: 475px) {
+  main .primmary__section .container__primmary__section {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 475px) {
+  main .primmary__section .container__primmary__section {
+    display: none;
+  }
+}
+main .primmary__section .container__primmary__section img {
+  background: tramsparent;
+  max-width: 130px;
+  max-height: 130px;
+  margin: 0 0 20px 0;
+}
+main .form {
+  position: fixed;
+  background: #EEEEEE;
+  width: 270px;
+  top: 30%;
+  right: 5%;
+  z-index: 2;
+  margin: 0 0 16px 0;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+}
+@media (max-width: 475px) {
+  main .form {
+    position: unset;
+    display: block;
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+}
+main .form .form__tittle {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+main .form .form__tittle .titulo__texto {
+  text-indent: 20px;
+}
+main .form .form__tittle .titulo__texto .solicitar {
+  color: #000000;
+  font-size: 16px;
+}
+main .form .form__tittle .titulo__texto .contato {
+  color: #DF0209;
+  font-size: 22px;
+}
+main .form .form__inputs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .form .form__inputs .form__type__inputs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .form .form__inputs .form__type__inputs label {
+  display: none;
+}
+main .form .form__inputs .form__type__inputs input {
+  width: 100%;
+  background: 8px/16px no-repeat #EEEEEE;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  height: 36px;
+  text-indent: 30px;
+  margin: 5px 0;
+}
+main .form .form__inputs .form__type__inputs input#nome {
+  background-image: url("../icons/call-answer.svg");
+}
+main .form .form__inputs .form__type__inputs input#e-mail {
+  background-image: url("../icons/black-envelope.svg");
+}
+main .form .form__inputs .form__type__inputs input#telefone {
+  background-image: url("../icons/call-answer.svg");
+}
+main .form .form__inputs .form__type__inputs input#escolha-o-horario {
+  background-image: url("../icons/clock-circular-outline.svg");
+}
+main .form .form__inputs .form__type__inputs input#escolha-a-unidade {
+  background-image: url("../icons/icon-localizacao.svg");
+}
+main .form .form__inputs .form__type__inputs input input + label,
+main .form .form__inputs .form__type__inputs input input + input {
+  margin-top: 5px;
+}
+main .form .form__inputs .botao {
+  width: 100%;
+  padding: 16px 0;
+  margin: 5px 0;
+  background-color: #1CB72A;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+}
+main .secundary__section {
+  max-width: 870px;
+  margin: 0 100px;
+}
+@media (max-width: 475px) {
+  main .secundary__section {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+main .secundary__section .text-section {
+  padding: 35px 0 50px 0;
+  color: #000000;
+}
+main .secundary__section .text-section h3 {
+  padding: 0 20px 0 0;
+}
+main .secundary__section .grid-imagens {
+  display: grid;
+  grid-template-columns: repeat(3, 170px) 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-areas: "image001 image004 image004 image004" "image002 image004 image004 image004" "image003 image004 image004 image004";
+  align-items: center;
+}
+main .secundary__section .grid-imagens .image001 {
+  grid-area: image001;
+}
+main .secundary__section .grid-imagens .image002 {
+  grid-area: image002;
+}
+main .secundary__section .grid-imagens .image003 {
+  grid-area: image003;
+}
+main .secundary__section .grid-imagens .image004 {
+  grid-area: image004;
+}
+main .secundary__section .grid-imagens .image001,
+main .secundary__section .grid-imagens .image002,
+main .secundary__section .grid-imagens .image003 {
+  height: 100%;
+  border: 1px solid #D5D5D5;
+}
+main .secundary__section .grid-imagens img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 475px) {
+  main .secundary__section .grid-imagens {
+    display: none;
+  }
+}
+main .secundary__section .grid-imagens-mobile {
+  display: none;
+}
+main .secundary__section .grid-imagens-mobile img {
+  max-width: 320px;
+  max-height: 100px;
+}
+@media (max-width: 475px) {
+  main .secundary__section .grid-imagens-mobile {
+    display: block;
+  }
+}
+main .section__algo__novo {
+  height: 400px;
+  background: url("../images/algo-novo.png") repeat;
+}
+@media (max-width: 475px) {
+  main .section__algo__novo {
+    background-position: 30%;
+  }
+}
+main .section__algo__novo .text-section {
+  max-width: 870px;
+  margin: 0 100px;
+  padding: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  color: #ffffff;
+}
+@media (max-width: 475px) {
+  main .section__algo__novo .text-section {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 475px) {
+  main .section__algo__novo .text-section h3 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+main .container__slider {
+  max-width: 870px;
+  margin: 0 100px;
+  padding: 35px 0 50px 0;
+}
+@media (max-width: 475px) {
+  main .container__slider {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+main .container__slider button.slick-next,
+main .container__slider button.slick-prev {
+  position: absolute;
+  top: 25%;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  font-size: 0px;
+  border-radius: 20px;
+}
+main .container__slider button.slick-next {
+  right: 5%;
+  background: url("../images/seta-direita.png") center center / 13px no-repeat #D5D5D5;
+}
+main .container__slider button.slick-prev {
+  left: 1%;
+  background: url("../images/seta-esquerda.png") center center / 13px no-repeat #D5D5D5;
+}
+main .container__slider .slider.d-none-mobile {
+  display: none;
+}
+@media (max-width: 575px) {
+  main .container__slider .slider.d-none-mobile {
+    display: block;
+  }
+}
+main .container__slider .slider.d-none-desktop {
+  display: block;
+}
+@media (max-width: 575px) {
+  main .container__slider .slider.d-none-desktop {
+    display: none;
+  }
+}
+main .container__slider .slider .slick-slide {
+  width: 100%;
+  margin-right: 45px;
+}
+main .container__slider .slider .slick-slide img {
+  border: 1px solid #D5D5D5;
+  margin: auto auto 15px auto;
+}
+main .container__slider .slider .slick-slide h3 {
+  color: #000000;
+}
+main .container__slider .slider .slick-slide p {
+  color: #00000090;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+  padding: 0 10px 0 0;
+}
+main .section__ter__honda {
+  max-width: 870px;
+  margin: 0 100px;
+  padding: 60px 0;
+}
+@media (max-width: 475px) {
+  main .section__ter__honda {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+main .section__ter__honda .grid-carros {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  gap: 0 30px;
+  align-items: center;
+  justify-content: center;
+}
+main .section__ter__honda .grid-carros .container__grid-carros {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #D5D5D5;
+  justify-content: center;
+}
+main .section__ter__honda .grid-carros .container__grid-carros img {
+  display: block;
+  margin: auto auto 10px auto;
+  max-width: 211px;
+  max-height: 179px;
+}
+main .section__ter__honda .grid-carros .container__grid-carros p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+main .section__ter__honda .grid-carros .container__grid-carros a button {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px 0;
+  background: transparent;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+}
+main .section__ter__honda .text-section {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+}
+main footer {
+  background-color: #eeeeee;
+}
+main footer .container__footer {
+  padding: 20px 0;
+  max-width: 570px;
+  margin: 0 auto;
+}
+@media (max-width: 475px) {
+  main footer .container__footer {
+    max-width: calc(335px-40px);
+    margin: 0 20px;
+  }
+}
+main footer .container__footer .container_footer__box {
+  display: flex;
+}
+@media (max-width: 515px) {
+  main footer .container__footer .container_footer__box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+main footer .container__footer .container_footer__box .footer__box {
+  display: flex;
+  align-items: center;
+  width: calc((100% / 2) - 30px);
+  padding: 20px;
+  margin: 0 15px;
+  border-radius: 5px;
+  border: 1px solid #DF0209;
+  background-color: #ffffff;
+}
+@media (max-width: 515px) {
+  main footer .container__footer .container_footer__box .footer__box {
+    width: calc(100% - 30px);
+    margin: 15px;
+  }
+}
+main footer .container__footer .container_footer__box .footer__box .icon__footer__box {
+  max-width: 30px;
+  margin: 0 15px 0 0;
+}
+main footer .container__footer .container_footer__box .footer__box .icon__footer__box img {
+  max-width: 30px;
+  max-height: 40px;
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__box {
+  width: calc((100% - 30px) - 15px);
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__box p {
+  font-size: 14px;
+  color: #000000;
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__box h4 {
+  font-size: 16px;
+  color: #DF0209;
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__contato {
+  width: 100%;
+  text-align: center;
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__contato p {
+  font-size: 14px;
+  color: #727B7A;
+}
+main footer .container__footer .container_footer__box .footer__box .content_footer__contato h4 {
+  font-size: 26px;
+  color: #DF0209;
+}
+@media (max-width: 475px) {
+  main footer .container__footer .container_footer__box .footer__box .content_footer__contato h4 {
+    font-size: 22px;
+  }
+}
+main footer .container__footer .container_footer_redes-sociais {
+  padding: 15px;
+  text-align: center;
+}
+main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais {
+  width: 100%;
+}
+main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais h3 {
+  font-size: 24px;
+}
+@media (max-width: 475px) {
+  main footer .container__footer .container_footer_redes-sociais .footer__redes-sociais h3 {
+    font-size: 18px;
+  }
+}
+main footer .container__footer .container_footer_redes-sociais .footer__icones_redes-sociais {
+  margin: 10px 0 0 0;
+}
+main footer .container__footer .container_footer_redes-sociais .footer__icones_redes-sociais img {
+  margin: 0 20px 0 0;
+}
+main footer .container__footer .container_footer_copiryght {
+  padding: 20px;
+  display: flex;
+}
+@media (max-width: 475px) {
+  main footer .container__footer .container_footer_copiryght {
+    flex-direction: column;
+  }
+}
+main footer .container__footer .container_footer_copiryght .logo-honda {
+  width: 110px;
+  margin: 0 130px 0 0;
+}
+@media (max-width: 475px) {
+  main footer .container__footer .container_footer_copiryght .logo-honda {
+    display: flex;
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+}
+main footer .container__footer .container_footer_copiryght .logo-honda img {
+  max-width: 110px;
+  max-height: 29px;
+  margin: auto;
+}
+main footer .container__footer .container_footer_copiryght .logo-ibama {
+  width: calc((100% - 110px) - 130px);
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 475px) {
+  main footer .container__footer .container_footer_copiryght .logo-ibama {
+    width: 100%;
+  }
+}
+main footer .container__footer .container_footer_copiryght .logo-ibama p {
+  font-size: 11px;
+  color: #707070;
+  padding: 0 10px 0 0;
+}
