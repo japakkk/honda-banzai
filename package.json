@@ -1,0 +1,26 @@
+{
+  "name": "honda-banzai",
+  "version": "1.0.0",
+  "description": "Landing Page Honda Banzai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japakkk/honda-banzai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japakkk/honda-banzai/issues"
+  },
+  "homepage": "https://github.com/japakkk/honda-banzai#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-minify-css": "^1.2.4"
+  },
+  "dependencies": {}
+}
