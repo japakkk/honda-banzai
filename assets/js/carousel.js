@@ -1,4 +1,4 @@
-jQuery('.d-none-desktop').slick({
+$('.d-none-desktop').slick({
   dots: false,
   infinite: true,
   speed: 1000,
@@ -6,7 +6,7 @@ jQuery('.d-none-desktop').slick({
   slidesToScroll: 3,
 });
 
-jQuery('.d-none-mobile').slick({
+$('.d-none-mobile').slick({
   dots: false,
   infinite: false,
   speed: 1000,
